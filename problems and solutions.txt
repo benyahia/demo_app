@@ -1,0 +1,13 @@
+########Erreur 1 :
+
+ExecJS::ProgramError in Users#index 
+
+TypeError: Cet objet ne gère pas cette propriété ou cette méthode
+  (in c:/xampp/htdocs/rails_projects/demo_app/app/assets/javascripts/users.js.coffee)
+
+
+########Soultion 1:
+
+remove //= require_tree . from app/assets/javascrpts/application.js
+
+
